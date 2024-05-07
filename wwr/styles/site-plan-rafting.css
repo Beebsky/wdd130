@@ -1,22 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hind+Siliguri:wght@300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Sedan+SC&display=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
   }
   :root {
-    --primary-color:#000000;
-    --secondary-color:#6f00ff;
-    --accent1-color: #ededed;
-    --accent2-color: #6f00ff;
+    --primary-color:#10002B;
+    --secondary-color:#240046;
+    --accent1-color: white;
+    --accent2-color: #E0AAFF;
+    --nav-background-color: white;
+    --nav-link-color: #240046;
+    --nav-hover-link-color: #E0AAFF;
+    --heading-font: "Rowdies", sans-serif;
+    --paragraph-font: "Roboto", sans-serif;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
-  
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #fdc00a;
-    --nav-hover-link-color: #fd0a0a;
-    --nav-hover-background-color: #cecdcd;
   }
   body {
     font-family: var(--paragraph-font);
@@ -32,7 +30,7 @@ body {
     background-color: var(--accent1-color);
   }
   p {
-    padding: 25px;
+    padding: 20px;
   }
   nav {
     background-color: var(--nav-background-color);
