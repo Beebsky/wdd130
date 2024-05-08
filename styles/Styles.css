@@ -1,0 +1,44 @@
+nav {
+    background-color: rgb(11, 147, 251);
+    padding: 10px;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+h1 {
+    color: rgb(11, 147, 251);
+}
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid rgb(11, 147, 251);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(249, 248, 248);
+    margin: auto;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+aside img {
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(11, 147, 251);
+    padding: 2px;
+    color: white;
+    background-color: rgb(175, 219, 252);
+    margin: auto;
+}
+p {
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
