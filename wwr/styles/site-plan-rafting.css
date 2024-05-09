@@ -12,8 +12,8 @@ body {
     --nav-background-color: white;
     --nav-link-color: #240046;
     --nav-hover-link-color: #E0AAFF;
-    --heading-font: "Rowdies", sans-serif;
-    --paragraph-font: "Roboto", sans-serif;
+    --heading-font: 'Rowdies', 'sans-serif';
+    --paragraph-font: 'Roboto', 'sans-serif';
   
   }
   body {
