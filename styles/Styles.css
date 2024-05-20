@@ -24,6 +24,7 @@ nav {
     display:flex;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 nav a {
     color: white;
@@ -38,6 +39,8 @@ h1 {
     padding: 1rem;
     border-bottom: 1px solid rgb(11, 147, 251);;
 }
+
+
 
 main {
     grid-column: 2/3;
