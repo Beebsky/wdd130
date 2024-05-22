@@ -55,6 +55,7 @@ main img {
     box-shadow: 0 0 30px rgb(249, 248, 248);
     margin: 1rem 0 1rem 1rem;
     float: right;
+    /*The h1 element is styled with this section*/
 }
 aside {
     width: 20rem;
