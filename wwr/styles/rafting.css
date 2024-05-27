@@ -27,7 +27,7 @@
 .img-1 {
   width: 150px;
   height: 100px;
-  grid-column: 1/2
+  grid-column: 1/2;
   
   
 }
@@ -42,14 +42,14 @@
 .img-3 {
   width: 150px;
   height: 100px;
-  grid-column: 3/4
+  grid-column: 3/4;
   
 
 }
 .img-4 {
   width: 150px;
   height: 100px;
-  grid-column: 4/5
+  grid-column: 4/5;
  
 
 }
@@ -107,12 +107,11 @@ body {
 
 h1 {
     font-family: var(--heading-font);
-    color: #ffffff;
+    color: #10002B;
     position: absolute;
-    top: 220px;
-    right: 500px;
-
-      
+    top: 200px;
+    left: 500px;
+   
 }
 
 article {
@@ -121,8 +120,7 @@ article {
     top: 350px;
     right:200px;
     left: 90px;
-    bottom: 55px;
-   
+    bottom: 55px; 
     
 }
 
@@ -139,7 +137,6 @@ h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
  
-
 }
 
 header {
@@ -151,8 +148,7 @@ p {
   padding: 5px;
   text-align: justify;
   position: relative;
-  
-  
+   
 }
 
 nav {
@@ -161,7 +157,7 @@ nav {
   display: flex;
   justify-content: right;
   margin: 0rem 0 1rem 1rem;
-  grid-column: 1/2
+  grid-column: 1/2;
   
 }
 
@@ -181,12 +177,14 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
 footer {
   display: flex;
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
   justify-content:end;
+
 }
   .hero img {
     display: block;
@@ -194,7 +192,95 @@ footer {
     height: auto;
   }
 
-header, .grid, footer, .h2, .logo, body, .grid-2 {
+  
+  .text {
+    align-items: center;
+    position: relative;
+    left: 440px;
+    top: 180px;
+    
+  }
+
+
+  header, .grid, footer, .h2, .logo, body, .grid-2, .container {
     max-width: 1120px;
     margin: 0;
   }
+
+  .container {
+    margin: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(116, 2, 102, 0.1);
+}
+
+.company-info, .form-section, .employee-profiles {
+    margin-bottom: 20px;
+}
+
+.company-info p, .form-section p {
+    margin: 5px 0;
+}
+
+.form-section input, .form-section textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section label {
+    display: block;
+    margin: 5px 0 5px 0;
+}
+
+.form-section .radio-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section .radio-group input {
+    width: auto;
+}
+
+.form-section .radio-group label {
+    margin: 0;
+    flex: 1;
+}
+
+.form-section .checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-section .checkbox-group input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.form-section button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.employee-profiles {
+    display: grid;
+    text-align: center;
+}
+
+.employee-profiles img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.employee-profiles .caption {
+    margin-top: 5px;
+}
+
+
