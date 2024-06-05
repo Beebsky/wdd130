@@ -133,10 +133,20 @@ article {
 
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
+
  
+}
+
+h4 {
+  font-family: var(--heading-font);
+  font-size: xx-large;
+  color: #10002B;
+  position: absolute;
+  top: 180px;
+  left: 520px;
 }
 
 header {
@@ -194,7 +204,7 @@ footer {
   }
 
   header, .grid, footer, .h2, .logo, body, .grid-2, .container {
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0;
   }
 
