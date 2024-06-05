@@ -107,10 +107,10 @@ body {
 
 h1 {
     font-family: var(--heading-font);
-    color: #10002B;
+    color: white;
     position: absolute;
     top: 200px;
-    left: 500px;
+    left: 450px;
    
 }
 
@@ -190,15 +190,15 @@ footer {
     display: block;
     width: 100%;
     height: auto;
+    
   }
 
-
-
   header, .grid, footer, .h2, .logo, body, .grid-2, .container {
-    max-width: 1120px;
+    max-width: 1250px;
     margin: 0;
   }
 
+  /* CSS for Contact Us */
   .container {
     margin: 10px;
     background: #fff;
@@ -272,6 +272,98 @@ footer {
 
 .employee-profiles .caption {
     margin-top: 5px;
+}
+
+/* CSS for trips */
+
+.trip {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.trip h2 {
+  color: #333;
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.trip p {
+  color: #555;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.trip button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.trip button:hover {
+  background-color: #45a049;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+section#services {
+    padding: 60px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    margin: 0 20px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.service h3 {
+    margin-top: 10px;
+}
+
+section#more-info {
+    background-color: #E0AAFF;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#more-info img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.info-content {
+    margin-left: 20px;
+    max-width: 500px;
 }
 
 
